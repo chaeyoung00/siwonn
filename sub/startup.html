@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>창업문의</title>
+	<link rel="stylesheet" href="../sub_css/startup_style.css">
+    <script src="http://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+	    <header>
+        <div class="innerbox">
+            <h1><a href="../index.html"><img src="../images/logo.png" alt="시원한밤"></a></h1>
+            <nav class="gnb">
+                <ul>
+                    <li>
+                        <a href="#">브랜드</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">브랜드 소개</a></li>
+                                <li><a href="ceo.html">CEO 소개</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">메뉴소개</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="noodle.html">볶음&amp;면</a></li>
+                                <li><a href="fried.html">튀김</a></li>
+                                <li><a href="soup.html">탕</a></li>
+                                <li><a href="side.html">사이드</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">매장안내</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">매장찾기</a></li>
+                                <li><a href="#">신규매장</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">창업안내</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">창업절차&amp;비용</a></li>
+                                <li><a href="#">창업문의</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">커뮤니티</a>
+                        <div class="sub">
+                            <ul>
+                                <li><a href="#">시원한밤 소식</a></li>
+                                <li><a href="#">점주소통 게시판</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            
+        </div>
+        <div class="sub_bg"></div>
+    </header>
+    <section class="main_visual">
+        <h2>창업안내</h2>
+    </section>
+    <section class="container">
+    	<div class="innerbox">
+			<h3>창업문의</h3>
+    		<form action="#" method="post">
+    			<fieldset>
+    				<legend>창업문의 form page</legend>
+    				<h4>상담자 정보</h4>
+    				<div class="info">
+    					<table>
+    						<tbody>
+    							<tr>
+    								<th scope="row"><label for="name">이름<span>*</span></label></th>
+    								<td><input type="text" id="name" name="name" required></td>
+    							</tr>
+    							<tr>
+    								<th scope="row">연락처<span>*</span></th>
+    								<td>
+    									<select name="mobile" id="m1" required>
+										<option value="010" selected>010</option>
+										</select> - 
+										<input type="text" name="mobile" id="m2" placeholder="0000"> - 
+										<input type="text" name="mobile" id="m3" placeholder="0000">
+    								</td>
+    							</tr>
+    							<tr>
+    								<th scope="row">창업희망지역<span>*</span></th>
+    								<td>
+    									<select name="area" id="area" required>
+    										<option value="서울" selected>서울</option>
+											<option value="인천">인천</option>
+											<option value="경기도">경기도</option>
+											<option value="충청도">충청도</option>
+											<option value="전라도">전라도</option>
+											<option value="경상도">경상도</option>
+											<option value="강원도">강원도</option>
+											<option value="제주도">제주도</option>
+    									</select>
+    								</td>
+    							</tr>
+    							<tr>
+    								<th scope="row">상가보유 유/무<span>*</span></th>
+    								<td>
+    									<input type="radio" name="select" id="s1" value="유" checked required>
+    									<label for="s1">유</label>
+    									<input type="radio" name="select" id="s2" value="무" required>
+    									<label for="s2">무</label>
+    								</td>
+    							</tr>
+    							<tr>
+    								<th scope="row">창업경험</th>
+    								<td>
+    									<select name="Ex" id="Ex">
+    										<option value="없음" selected>없음</option>
+    										<option value="치킨&amp;호프">치킨&amp;호프</option>
+    										<option value="주류업">주류업</option>
+    										<option value="일반음식점">일반음식점</option>
+    										<option value="주류업">주류업</option>
+    										<option value="카페&amp;디저트">카페&amp;디저트</option>
+    										<option value="기타">기타</option>
+    									</select>
+    								</td>
+    							</tr>
+    							<tr>
+    								<th scope="row">상담희망시간</th>  
+									<td>
+    									<select name="time" id="time">
+    										<option value="09:00~10:00" selected>09:00~10:00</option>
+    										<option value="10:00~11:00">10:00~11:00</option>
+    										<option value="11:00~12:00">11:00~12:00</option>
+    										<option value="12:00~13:00">12:00~13:00</option>
+    										<option value="13:00~14:00">13:00~14:00</option>
+    										<option value="14:00~15:00">14:00~15:00</option>
+    										<option value="15:00~16:00">15:00~16:00</option>
+											<option value="16:00~17:00">16:00~17:00</option>
+											<option value="17:00~18:00">17:00~18:00</option>
+    									</select>
+    								</td>                        
+    							</tr>
+								<tr>
+									<th scope="row">문의내용<span>*</span></th>	
+									<td>
+										<input type="radio" name="query" id="q1" value="신규창업" checked required>
+    									<label for="q1">신규창업</label>
+    									<input type="radio" name="query" id="q2" value="업종변경" required>
+    									<label for="q2">업종변경</label>
+										<input type="radio" name="query" id="q3" value="단순문의" required>
+    									<label for="q3">단순문의</label>
+										<input type="radio" name="query" id="q4" value="입점제안" required>
+    									<label for="q4">입점제안</label>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row">문의내용상세<span>*</span></th>
+									<td>
+										<textarea name="text" id="tx" required></textarea>
+									</td>
+								</tr>
+    						</tbody>
+    					</table>
+    				</div>
+					<h4>개인정보 활용 동의</h4>
+					<div class="acept">
+						<ol>
+							<li>
+								1. 개인정보의 수집 및 이용 목적<br>
+								가맹 관련 문의 확인 및 답변을 위한 연락통지, 처리결과 통보 등을 목적으로 개인정보를 처리합니다.
+							</li>
+							<li>
+								2. 처리하는 개인정보 항목<br>
+								- 필수항목 : 이름, 연락처,창업희망지역,창업예상비용,상가 보유 유무,문의내용,문의내용상세 (접속 IP 정보, 쿠키, 서비스 이용 기록, 접속 로그)<br>
+								- 선택항목 : 나이, 이메일, 상가주소, 창업경험, 상담희망시간
+							</li>
+							<li>
+								3. 개인정보의 처리 및 보유 기간<br>
+								① 법령에 따른 개인정보 보유.이용기간 또는 정보주체로부터 개인정보를 수집 시에 동의 받은 개인정보 보유, 이용기간 내에서 개인정보를 처리, 보유합니다.<br>
+								② 개인정보의 보유 기간은 5년입니다.
+							</li>
+						</ol>
+						<p>
+							<input type="checkbox" id="accept" name="accept" value="yes" required>
+							<label for="accept">위 개인정보 수집 및 활용에 동의합니다.</label>
+						</p>
+					</div>
+					<div class="btns">
+						<button type="submit" id="submit" onclick="alert('창업문의가 정상적으로 완료되었습니다.');">문의하기</button>
+					</div>
+    			</fieldset>
+    		</form>
+    	</div>
+    </section>
+	<footer>
+        <div class="footer_top">
+            <div class="innerbox">
+                <h3>logo</h3>
+                <p>가맹문의 0000-0000</p>
+            </div>
+        </div>
+        <div class="footer_menu">
+            <div class="innerbox">
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#">개설문의</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="sns">
+                <ul>
+                    <li><a href="#">facebook</a></li>
+                    <li><a href="#">instagram</a></li>
+                </ul>
+            </div>
+            <div class="left">
+                <address>
+                    <p>&#40;주&#41;시밤sb 사업자번호 : 000-00-00000 대표자 : 한도윤</p>
+                    <p>본사 : 경기도 안산시 단원구 광덕동로78 솜솜빌라 630</p>
+                    <p>대표전화 : 1111-1111 FAX : 000-111-2222 이메일 : Kingdy88&#64;naver.com</p>
+                </address>
+                <p>COPYRIGHT(&copy;)2017 Siwonsb ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

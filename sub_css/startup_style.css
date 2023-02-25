@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import url("default.css");
+@import url("header.css");
+@import url("footer.css");
+body{
+	font-size: 14px;
+	font-family: "맑은 고딕",sans-serif;
+	color: #333;
+}
+legend{   
+    display:none;   
+}
+fieldset, button{   
+    border:0px none;  
+}
+table{  
+    border-collapse:collapse;   
+    border-spacing:0px; 
+    width: 100%; 
+}
+.main_visual{
+    width: 100%;
+    height: 400px;
+    background: url("../images/cost_bg.png") no-repeat;
+    background-size: cover;
+}
+.main_visual>h2{
+    font-size: 42px;
+	text-align: center;
+	line-height: 310px;
+	font-weight: bold;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    overflow: hidden;
+    background: #E6E9EF;
+    padding-top: 80px;
+}
+.container>.innerbox{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container>.innerbox>h3{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #18213D;
+    margin-bottom: 60px;
+}
+h4{
+    font-size: 22px;
+    color: #666666;
+    font-weight: bold;
+    padding: 17px 0;
+    border-bottom: 1px solid #fff;
+}
+h4:nth-of-type(2){
+    border-bottom: 0;
+    padding-bottom: 0;
+}
+tr{
+    border-bottom: 1px solid #fff;
+}
+th, td{
+    height: 50px;
+}
+th{
+    width: 200px;
+    font-size: 16px;
+    color: #666666;
+}
+span{
+    color: #FE8282;
+}
+input{   
+    height:34px;  
+    border:1px solid #fff;   
+}
+select{
+    height: 34px;
+    border: 1px solid #fff;
+}
+#name, #area, #Ex, #time{
+    width: 320px;
+    box-sizing: border-box;
+}
+#tx{
+    width: 100%;
+    height: 240px;
+    border: 1px solid #fff;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+#m1, #m2, #m3{
+    width: 96px;
+    box-sizing: border-box;
+}
+#s1, #s2, #q1, #q2, #q3, #q4, #accept{
+    vertical-align: middle;
+}
+.acept{
+    padding: 15px 0;
+}
+.acept>ol{
+    border: 1px solid #fff;
+    padding: 15px;
+}
+.acept>ol>li{
+    margin-bottom: 6px;
+}
+.acept>ol>li:last-child{
+    margin-bottom: 0;
+}
+.btns{
+    width: 190px;
+    margin: 30px auto;
+
+}
+#submit{  
+    width:190px;  
+    height:60px;  
+    color:#fff;  
+    font-size: 18px;
+    font-weight:bold; 
+    background: #18213D; 
+    border-radius: 60px;
+    cursor: pointer;
+}

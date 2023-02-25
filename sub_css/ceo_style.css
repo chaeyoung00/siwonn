@@ -1,0 +1,55 @@
+@charset "utf-8";
+@import url("default.css");
+@import url("header.css");
+@import url("footer.css");
+body{
+	font-size: 14px;
+	font-family: "맑은 고딕",sans-serif;
+	color: #333;
+}
+.container{
+    height: auto;
+}
+.container>.innerbox{
+    width: 1200px;
+    margin: 0 auto;
+}
+.container>.innerbox>h2{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+}
+.container>.innerbox>p{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 30px;
+}
+.container>.innerbox>p>span{
+    font-weight: bold;
+}
+.container>.innerbox>.ceo{
+    background: url("../images/ceo_main.png") no-repeat;
+     padding-left: 300px;
+     box-sizing: border-box;
+     margin-top: 120px;
+}
+.container>.innerbox>.ceo>p:nth-of-type(1){
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 34px;
+}
+.container>.innerbox>.ceo>p:nth-of-type(2){
+    font-weight: bold;
+    font-size: 24px;
+    color: #FC800E;
+}
+.container>.innerbox>.ceo>.text{
+    margin-top: 20px;
+}
+.container>.innerbox>.ceo>.text>p{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+.container>.innerbox>.banner_box{
+    margin: 100px 0;
+}

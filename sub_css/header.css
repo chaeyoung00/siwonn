@@ -1,0 +1,93 @@
+@charset "utf-8";
+body{
+    font-size: 14px;
+    font-family: "맑은 고딕",sans-serif;
+    color: #333;
+}
+header{
+    width: 100%; 
+    height: 80px; 
+    position: relative;
+    background: #18213D;
+    z-index: 1000;
+}
+header>.innerbox{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1000;
+}
+header>.innerbox>h1{
+    float: left;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    margin-top: 15px;
+}
+header>.innerbox>#toggle{
+    float: right;
+    width: 34px;
+    height: 26px;
+    background: url("../images/toggle.png") no-repeat;
+    text-indent: -9999px;
+    margin-top: 26px;
+}
+header>.innerbox>.gnb{
+    width: 900px; 
+    height: 80px;
+}
+header>.innerbox>.gnb>ul{
+    height: 80px;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+header>.innerbox>.gnb>ul>li{
+    width: 140px;
+}
+header>.innerbox>.gnb>ul>li>a{
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
+header>.innerbox>.gnb>ul>li>.sub{
+    width: 140px;
+    height: 240px;
+    position: absolute; top: 80px;
+    display: none;
+}
+header>.innerbox>.gnb>ul>li>.sub>ul{
+    width: 140px;
+    overflow: hidden; 
+}
+header>.innerbox>.gnb>ul>li>.sub>ul>li{
+    width: 140px;
+    height: 40px;
+}
+header>.innerbox>.gnb>ul>li>.sub>ul>li>a{
+    display: block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+}
+header>.innerbox>.gnb>ul>li>.sub>ul>li>a:hover{
+    background: #fff;
+    color: #18213D;
+    font-weight: bold;
+}
+header>.sub_bg{
+    width: 100%; 
+    height: 240px;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    background: #2C3757;
+    display: none;
+}

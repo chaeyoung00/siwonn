@@ -1,0 +1,265 @@
+@charset "utf-8";
+@import url("default.css");
+@import url("header.css");
+@import url("footer.css");
+
+
+@media screen and ( min-width:1200px ){
+body{
+	font-size: 14px;
+	font-family: "맑은 고딕",sans-serif;
+	color: #fff;
+}
+.main_visual{
+	width: 100%;
+	height: 400px;
+	background: url("../images/brand_main.png") no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.main_visual>h2{
+	font-size: 42px;
+	text-align: center;
+	line-height: 310px;
+	font-weight: bold;
+}
+.main_visual>.left{
+	position: absolute;
+	right: 50%; 
+	top: 50%;
+	margin-right: 400px;
+}
+.main_visual>.left>p{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 14px;
+	transition: all 0.3s;
+}
+.main_visual>.left>p>span{
+	color: #DCC710;
+}
+
+
+.container{
+	background: #121A34;
+	height: auto;
+	position: relative;
+}
+.container>.innerbox{
+	width: 1200px;
+	margin: 0 auto;
+}
+.container>.innerbox>h2{
+	font-size: 130px;
+	color: #313131;
+	padding-top: 30px;
+	box-sizing: border-box;
+	margin-bottom: 60px;
+}
+.container>.innerbox>p{
+	font-size: 28px;
+	font-weight: bold;
+	
+}
+.container>.innerbox>p>span{
+	color: #DCC710;
+}
+.container>.innerbox>.banner{
+	margin-top: 100px;
+}
+.container>.innerbox>.banner>.img1{
+	height: 600px;
+}
+.container>.innerbox>.banner>.img1>.text{
+	float: left;
+	margin-top: 150px;
+}
+.container>.innerbox>.banner>.img1>img{
+	float: right; 
+}
+.container>.innerbox>.banner>.img1>.text>h3{
+	font-size: 32px;
+	font-weight: bold;
+}
+.container>.innerbox>.banner>.img1>.text>p{
+	font-size: 26px;
+	line-height: 24px;
+	color: #666;
+	margin-top: 10px;
+	font-weight: bold;
+}
+.container>.innerbox>.banner>.img2{
+	height: 600px;
+}
+.container>.innerbox>.banner>.img2>img{
+	float: left;
+}
+.container>.innerbox>.banner>.img2>.text{
+	float: right;
+	margin-top: 150px;
+}
+.container>.innerbox>.banner>.img2>.text>h3{
+	font-size: 32px;
+	font-weight: bold;
+}
+.container>.innerbox>.banner>.img2>.text>p{
+	font-size: 26px;
+	line-height: 30px;
+	color: #666;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.container>.innerbox>.introduction{
+	height: 200px;
+	padding: 80px 0;
+}
+.container>.innerbox>.introduction>.left{
+	float: left;
+}
+.container>.innerbox>.introduction>.left>h3{
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 36px;
+}
+.container>.innerbox>.introduction>.left>h3:nth-of-type(2){
+	margin-bottom: 20px;
+}
+.container>.innerbox>.introduction>.left>h3>span{
+	color: #DCC710;
+}
+.container>.innerbox>.introduction>.left>p{
+	font-size: 20px;
+	color: #B9B0B0;
+	line-height: 23px;
+}
+.container>.innerbox>.introduction>.right{
+	float: right;
+}
+.container>.innerbox>.introduction>.right>a{
+	display: block;
+	width: 260px;
+    height: 80px;
+    border-radius: 60px;
+    background: #a6bcf4;
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 80px;
+    text-align: center;
+	margin-top: 60px;
+}
+}
+
+
+/* 테블릿 사이즈 */
+@media screen and ( max-width:1199px ) and ( min-width:834px ){
+	body{
+		font-size: 14px;
+		font-family: "맑은 고딕",sans-serif;
+		color: #fff;
+	}
+	
+	header>.innerbox{
+		width: 100%;
+		margin: 0 auto;
+		position: relative;
+		z-index: 1000;
+	}
+	header>.innerbox>h1 {
+		width: 200px;
+		height: 50px;
+		color: #fff;
+		margin: 0 auto;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		top: 15px;
+	}
+	header>.innerbox>.gnb{
+		display: none;
+	}
+	.main_visual{
+		width: 100%;
+		height: 310px;
+		background: url("../images/brand_main.png") no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+	.main_visual>h2{
+		font-size: 38px;
+		text-align: center;
+		padding-top: 10%;
+		font-weight: bold;
+	}
+	.main_visual>.left{
+		position: absolute;
+		right: 78%; 
+		top: 50%;
+		/* margin-right: 400px; */
+	}
+	.main_visual>.left>p{
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 14px;
+		transition: all 0.3s;
+	}
+	.main_visual>.left>p>span{
+		color: #DCC710;
+	}
+	.container{
+		background: #121A34;
+		height: auto;
+		position: relative;
+	}
+	.container>.innerbox{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.container>.innerbox>h2{
+		font-size: 80px;
+		color: #313131;
+		padding-top: 30px;
+		box-sizing: border-box;
+		margin-bottom: 50px;
+	}
+	.container>.innerbox>p{
+		font-size: 18px;
+		font-weight: bold;
+		text-align: center;
+		line-height: 26px;
+	}
+	.container>.innerbox>p>span{
+		color: #DCC710;
+		font-size: 20px;
+	}
+	.container>.innerbox>.banner{
+		margin-top: 80px;
+	}
+	.container>.innerbox>.banner>.img1{
+		height: 320px;
+			
+	}
+	.container>.innerbox>.banner>.img1>.text{
+		float: left;
+		margin-top: 150px;
+	}
+	.container>.innerbox>.banner>.img1>.text>h3{
+		font-size: 20px;
+		color: #fff;
+		font-weight: bold;
+	}
+	.container>.innerbox>.banner>.img1>.text>p{
+		color: #666;
+		font-weight: bold;
+		font-size: 16px;
+	}
+	.container>.innerbox>.banner>.img1>img{
+		float: right; width: 50%; 
+	}
+
+
+
+
+
+}
