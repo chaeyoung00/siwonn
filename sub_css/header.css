@@ -33,7 +33,7 @@ header>.innerbox>#toggle{
     margin-top: 26px;
 }
 header>.innerbox>.gnb{
-    width: 900px; 
+    /* width: 900px;  */
     height: 80px;
 }
 header>.innerbox>.gnb>ul{
